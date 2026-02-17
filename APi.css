@@ -1,0 +1,28 @@
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    background-color: aquamarine;
+    
+}
+label{
+    align-items: center;
+    justify-content: center;
+    left: auto;
+}
+input[type="text"], textarea {
+
+    display: block;
+    margin: 10px auto; 
+}
+button{
+    color: purple;
+    background-color: green;
+    border-radius: 10px;
+    width: 15px 20px;
+    height: 40px ;
+}
